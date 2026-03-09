@@ -21,84 +21,31 @@
     <script defer src="/Oulim/asset/js/pages/volunteer-manage/volunteer-manage-register.js"></script>
     <script src="/Oulim/asset/js/pages/volunteer-manage/volunteer-manage-list.js" defer></script>
 </head>
+
 <body>
     <div id="header"></div>
     <!-- <%@ include file="header.jsp" %> -->
 
     <main class="l-main">
         <section class="p-volunteer-manage-list">
-            <div class="l-container">  
+            <div class="l-container">
                 <div class="p-volunteer-manage-list_header">
                     <h1 class="p-volunteer-manage-list_title">봉사관리</h1>
                     <a href="/Oulim/front/html/volunteer-management/volunteer-manage-register.html">
-                    <button class="c-button c-button--primary c-button--md">봉사 등록</button>
-                    </a>                 
+                        <button class="c-button c-button--primary c-button--md">봉사 등록</button>
+                    </a>
                 </div>
-                    <div class="p-volunteer-manage-list_content">
-                        <div class="c-list c-list--3col">
-                            <!-- header -->
-                            <div class="c-list__header">
+                <div class="p-volunteer-manage-list_content">
+                    <div class="c-list c-list--3col">
+                        <!-- header -->
+                        <div class="c-list__header">
                             <span class="c-list__col">제목</span>
                             <span class="c-list__col">기간</span>
                             <span class="c-list__col">상태</span>
-                            </div>
-                            <!-- body -->
-                            <div class="c-list__body">
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
-                            <div class="c-list__row" data-href="/Oulim/front/html/volunteer-management/volunteer-manage-detail.html">
-                                <span class="c-list__col">제설 봉사</span>
-                                <span class="c-list__col">26.02.03</span>
-                                <span class="c-list__col">모집중</span>
-                            </div>
+                        </div>
+                        <!-- body -->
+                        <div class="c-list__body" id="volunteerListBody">
+                            
                         </div>
                     </div>
                 </div>
@@ -113,4 +60,5 @@
     <!-- <%@ include file="footer.jsp" %> -->
     <div id="footer"></div>
 </body>
+
 </html>

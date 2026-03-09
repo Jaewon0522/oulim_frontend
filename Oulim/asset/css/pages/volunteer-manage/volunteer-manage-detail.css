@@ -14,6 +14,26 @@
   margin-top: 8px;
 }
 
+
+/* 결석버튼 따로 적용 */
+.l-container .absent-btn {
+  background-color: #eb5757;
+  border-color: #eb5757;
+  color: #fff;
+}
+
+.l-container .absent-btn:hover {
+  background-color: #d64545;
+  border-color: #d64545;
+  color: #fff;
+}
+
+.l-container .absent-btn:disabled {
+  background-color: #f4b3b3;
+  border-color: #f4b3b3;
+  color: #fff;
+}
+
 .p-volunteer-manage-detail_header 
 .c-button--secondary{
   background-color: #f2f2f2;
