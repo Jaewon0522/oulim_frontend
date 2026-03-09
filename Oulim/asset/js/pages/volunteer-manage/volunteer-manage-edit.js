@@ -94,7 +94,9 @@ requiredFields.forEach(field => {
     });
 });
 
-editButton.addEventListener("click", () => {
+editButton.addEventListener("click", (e) => {
+    e.preventDefault();
+
     let isValid = true;
     let firstErrorField = null;
 
